@@ -29,7 +29,7 @@ Design layout for Microcontroller, ACS712 Current Sensor, and SSR (Solid State R
 
 
 
-## 🛠 Simulation Results & Protection Logic
+## Simulation Results & Protection Logic
 
 ### 1. Logic Protection Circuit
 The core decision-making algorithm using AND/OR gates to detect faults based on DO-160G thresholds.
