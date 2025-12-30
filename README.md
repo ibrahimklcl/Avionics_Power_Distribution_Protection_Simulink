@@ -21,7 +21,7 @@ The hardware-ready adaptation model designed for microcontrollers.
 ## System Architecture & Hardware
 **1. System Overview**
 The architecture manages power flow from the Variable Frequency Generator (VFG) to loads, switching between Main TRU and Backup Battery.
-![System Architecture](System_Architecture.png)
+![System Architecture]
 
 **2. Hardware Implementation Plan**
 Design layout for Microcontroller, ACS712 Current Sensor, and SSR (Solid State Relay) integration.
