@@ -4,7 +4,7 @@ This project, developed for educational purposes during the engineering program 
 
 The system models real-world avionics components based on public specifications, including the **Astronics 1434 RTRU** and **True Blue Power TB17 Lithium-ion Battery**.
 
-## 📂 Project Structure
+## Project Structure
 This repository contains two stages of the design process:
 
 ### 1. Logic Design Model (`PDU_Logic_Design.slx`)
@@ -16,9 +16,9 @@ The hardware-ready adaptation model designed for microcontrollers.
 * **ADC Simulation:** Voltage divider scaling (28V -> 5V) for Analog-to-Digital Converter input.
 * **Digital Logic:** Simulates binary processing of fault signals as performed by an MCU.
 
----
 
-## 📊 System Architecture & Hardware
+
+## System Architecture & Hardware
 **1. System Overview**
 The architecture manages power flow from the Variable Frequency Generator (VFG) to loads, switching between Main TRU and Backup Battery.
 ![System Architecture](System_Architecture.png)
@@ -27,7 +27,7 @@ The architecture manages power flow from the Variable Frequency Generator (VFG) 
 Design layout for Microcontroller, ACS712 Current Sensor, and SSR (Solid State Relay) integration.
 ![Hardware Architecture](Hardware_Architecture.png)
 
----
+
 
 ## 🛠 Simulation Results & Protection Logic
 
@@ -43,9 +43,9 @@ Demonstration of seamless power transition from **Astronics 1434 RTRU (28V)** to
 System response to a surge current event (>250A), demonstrating immediate breaker activation.
 ![Short Circuit](Short_Circuit_Result.png)
 
----
 
-## 💻 Embedded Signal Processing (ADC)
+
+## Embedded Signal Processing (ADC)
 
 **Step 1: Test Scenario**
 The system was tested under a failure scenario: Normal Operation (28V) -> Battery Mode (26V) -> Total Failure (10V).
@@ -65,7 +65,7 @@ The ADC converts the scaled analog voltage into digital signals for the MCU.
 * **Fault Condition (10V):**
 ![ADC Fault](ADC_Output_Fault.png)
 
----
+
 
 ## ⚠️ Disclaimer
 This project was developed for **educational and simulation purposes** during the "SKY Experience Candidate Engineering Program" at **Turkish Aerospace Industries (TUSAŞ)**.
