@@ -1,4 +1,4 @@
-# Avionics Power Distribution & Protection System Simulation ✈️⚡
+# Avionics Power Distribution & Protection System Simulation 
 
 This project, developed for educational purposes during the engineering program at **Turkish Aerospace Industries (TUSAŞ)**, simulates critical power distribution units (PDU) and protection mechanisms compliant with aviation standards (**DO-160G**, **MIL-STD-704**).
 
